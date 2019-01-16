@@ -4,4 +4,4 @@ This website was my first experience with HTML and CSS. I also used Bootstrap fo
 
 All credits of the team media go to Maxwell Baeck and JunHyeok Cha. 
 All stock images are the properties of their respective owners and were used for creative purposes only.
-Some scenes of the homepage video are the property of Notre Dame de la Baie Academy, and were used for creative purposes only and in the benefit of the school.
+Some scenes of the homepage video are the property of Notre Dame de la Baie Academy and were used for creative purposes only and in the benefit of the school.
