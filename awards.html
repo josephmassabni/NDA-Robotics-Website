@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Font Awesome (Icons) -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <!-- Font from Google -->
+    <link href="https://fonts.googleapis.com/css?family=Heebo:100,700|Kaushan+Script|Monoton" rel="stylesheet">
+
+    <!--- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+
+    <title>NDA Robotics</title>
+
+    <script>
+    function deferVideo() {
+
+      //defer html5 video loading
+      $("video source").each(function() {
+        var sourceFile = $(this).attr("data-src");
+        $(this).attr("src", sourceFile);
+        var video = this.parentElement;
+        video.load();
+        // uncomment if video is not autoplay
+        //video.play();
+      });
+    }
+    window.onload = deferVideo;
+    </script>
+
+  </head>
+
+  <body>
+
+    <!--Upper Navbar-->
+    <nav class="upperNavbar navbar-expand-lg">
+      <a class="navbar-brand" href="http://www.notredameacademy.com/">
+          <img src="NDA-Crest.svg" width="30" height="30" alt="" color="white">
+      </a>
+      <a class="nav-item" href="https://www.youtube.com/watch?v=MJvjOd0hj8Y&t">
+          <i class="fab fa-youtube fa-lg"></i>
+      </a>
+      <a class="nav-item" href="https://www.facebook.com/ndatritons/">
+        <i class="fab fa-facebook fa-lg"></i>
+      </a>
+      <a class="nav-item" href="https://twitter.com/TritonsNDA?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+        <i class="fab fa-twitter-square fa-lg"></i>
+      </a>
+      <a class="nav-item" href="https://github.com/josephmassabni">
+        <i class="fab fa-github-square fa-lg"></i>
+      </a>
+     </nav>
+
+    <!-- Main Navbar -->
+    <nav class="navbar navbar-dark sticky-top flex-column navbar-expand-lg">
+      <a class="navbar-brand" href="index.html">NDA Robotics</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Teams
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="2018-2019.html">2018-2019</a>
+              <a class="dropdown-item" href="2017-2018.html">2017-2018</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="previousyears.html">Team Photos</a>
+            </div>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="awards.html">Awards</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="impact.html">Impact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="jumbotronAwards jumbotron-fluid">
+      <video autoplay muted loop poster="images/IMG_3152.JPG">
+        <source src="" data-src="images/IMG_0048.mp4" type="video/mp4">
+      </video>
+      <div class="container text-white">
+        <h1 class="display-4">
+          <br>
+          <br>
+          Ordinary people doing extraordinary things</h1>
+        <h5>A robotics program gifted with success</h5>
+        <hr class="my-4">
+        <span style="font-size: 22px">
+          <p>“There is no better catalyst to success than curiosity.” -Michael Dell</p>
+        </span>
+        <a class="btn btn-dark btn-lg" href="impact.html" role="button">
+          Our Impact
+          <i class="fas fa-hands-helping"></i>
+        </a>
+      </div>
+      <!-- /.container -->
+    </div>
+    <!-- /.jumbotron -->
+
+
+    <div class="jumbotron-2 jumbotron-fluid">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h1>Success: It's in our nature!</h1>
+            </div>
+            <div class="col-12">
+              <p>At Notre Dame Academy, we are gifted with success in everything. Success is not just an award, it is an experience.</p>
+            </div>
+            <div class="col-12">
+              <table class="table table-dark table-striped">
+                <thead>
+                  <tr>
+                    <th scope="col">Year</th>
+                    <th scope="col">Award Name</th>
+                    <th scope="col">Event</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">'13-'14</th>
+                    <td>Tournament Finalist</td>
+                    <td>Toss Up</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">'13-'14</th>
+                    <td>Tournament Champion</td>
+                    <td>Toss Up</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">'13-'14</th>
+                    <td>Tournament Finalist</td>
+                    <td>Toss Up</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">'13-'14</th>
+                    <td>Tournament Champion</td>
+                    <td>Toss Up</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">'14-'15</th>
+                    <td>Tournament Finalist</td>
+                    <td>Skyrise</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">'14-'15</th>
+                    <td>Energy Award</td>
+                    <td>Skyrise</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">'15-'16</th>
+                    <td>Tournament Champion</td>
+                    <td>Nothing But Net</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">'15-'16</th>
+                    <td>Tournament Finalist</td>
+                    <td>Nothing But Net</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">'15-'16</th>
+                    <td>Tournament Champion</td>
+                    <td>Nothing But Net</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">'15-'16</th>
+                    <td>Innovate Award</td>
+                    <td>Nothing But Net</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="container">
+      <br>
+      <br>
+      <h1>Our Postseason Appearances</h1>
+      <p>We have been gifted with many extraordinary teams, representing Notre Dame Academy in multiple postseason competitions.
+      <div class="row">
+        <div class="col-12">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">Year</th>
+                <th scope="col">Competition Name</th>
+                <th scope="col">Event</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">'13-'14</th>
+                <td>State Tournament</td>
+                <td>Toss Up</td>
+              </tr>
+              <tr>
+                <th scope="row">'13-'14</th>
+                <td>National Tournament</td>
+                <td>Toss Up</td>
+              </tr>
+              <tr>
+                <th scope="row">'13-'14</th>
+                <td>World Tournament</td>
+                <td>Toss Up</td>
+              </tr>
+              <tr>
+                <th scope="row">'14-'15</th>
+                <td>State Tournament</td>
+                <td>Skyrise</td>
+              </tr>
+              <tr>
+                <th scope="row">'15-'16</th>
+                <td>State Tournament</td>
+                <td>Nothing But Net</td>
+              </tr>
+              <tr>
+                <th scope="row">'15-'16</th>
+                <td>National Tournament</td>
+                <td>Nothing But Net</td>
+              </tr>
+              <tr>
+                <th scope="row">'16-'17</th>
+                <td>State Tournament</td>
+                <td>Starstruck</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+
+    <nav class="lowerNavbar bottom navbar-expand-lg">
+      <a class="navbar-brand" href="http://www.notredameacademy.com/">
+          <img src="NDA-Crest.svg" width="30" height="30" alt="" color="white">
+      </a>
+      <a class="nav-item" href="https://www.youtube.com/watch?v=MJvjOd0hj8Y&t">
+          <i class="fab fa-youtube fa-lg"></i>
+      </a>
+      <a class="nav-item" href="https://www.facebook.com/ndatritons/">
+        <i class="fab fa-facebook fa-lg"></i>
+      </a>
+      <a class="nav-item" href="https://twitter.com/TritonsNDA?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+        <i class="fab fa-twitter-square fa-lg"></i>
+      </a>
+      <a class="nav-item" href="https://github.com/josephmassabni">
+        <i class="fab fa-github-square fa-lg"></i>
+      </a>
+    </nav>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  </body>
+
+</html>

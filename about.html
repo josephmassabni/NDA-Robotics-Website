@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Font Awesome (Icons) -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <!-- Font from Google -->
+    <link href="https://fonts.googleapis.com/css?family=Heebo:100,700|Kaushan+Script|Monoton" rel="stylesheet">
+
+    <!--- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+
+    <title>NDA Robotics</title>
+
+    <script>
+    function deferVideo() {
+
+      //defer html5 video loading
+      $("video source").each(function() {
+        var sourceFile = $(this).attr("data-src");
+        $(this).attr("src", sourceFile);
+        var video = this.parentElement;
+        video.load();
+        // uncomment if video is not autoplay
+        //video.play();
+      });
+    }
+    window.onload = deferVideo;
+    </script>
+
+  </head>
+
+  <body>
+
+    <!--Upper Navbar-->
+    <nav class="upperNavbar navbar-expand-lg">
+      <a class="navbar-brand" href="http://www.notredameacademy.com/">
+          <img src="NDA-Crest.svg" width="30" height="30" alt="" color="white">
+      </a>
+      <a class="nav-item" href="https://www.youtube.com/watch?v=MJvjOd0hj8Y&t">
+          <i class="fab fa-youtube fa-lg"></i>
+      </a>
+      <a class="nav-item" href="https://www.facebook.com/ndatritons/">
+        <i class="fab fa-facebook fa-lg"></i>
+      </a>
+      <a class="nav-item" href="https://twitter.com/TritonsNDA?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+        <i class="fab fa-twitter-square fa-lg"></i>
+      </a>
+      <a class="nav-item" href="https://github.com/josephmassabni">
+        <i class="fab fa-github-square fa-lg"></i>
+      </a>
+     </nav>
+
+    <!-- Main Navbar -->
+    <nav class="navbar navbar-dark sticky-top flex-column navbar-expand-lg">
+      <a class="navbar-brand" href="index.html">NDA Robotics</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Teams
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="2018-2019.html">2018-2019</a>
+              <a class="dropdown-item" href="2017-2018.html">2017-2018</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="previousyears.html">Team Photos</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="awards.html">Awards</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="impact.html">Impact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="jumbotron-3 jumbotron-fluid">
+      <div class="container">
+        <br>
+        <br>
+          <h1>We are team 6001.</h1>
+          <p>Proudly representing Notre Dame Academy since 2012.</p>
+      </div>
+    </div>
+
+    <div class="jumbotron-2 jumbotron-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <br>
+            <br>
+            <h1>Our History</h1>
+            <p>“You don’t have to be a genius or a visionary or even a college graduate to be successful. You just need a framework and a dream.” -Michael Dell </p>
+            <br>
+          </div>
+          <div class="col-lg-4 col-xs-12">
+            <div class="list-group" id="list-tab" role="tablist">
+              <a class="list-group-item list-group-item-dark list-group-item-action active" id="list-beginning-list" data-toggle="list" href="#list-beginning" role="tab" aria-controls="beginning"><h5>In The Beginning</h5></a>
+              <a class="list-group-item list-group-item-dark list-group-item-action" id="list-earlyyears-list" data-toggle="list" href="#list-earlyyears" role="tab" aria-controls="earlyyears"><h5>The Early Years</h5></a>
+              <a class="list-group-item list-group-item-dark list-group-item-action" id="list-victory-list" data-toggle="list" href="#list-victory" role="tab" aria-controls="victory"><h5>An Era of Victory</h5></a>
+              <a class="list-group-item list-group-item-dark list-group-item-action" id="list-present-list" data-toggle="list" href="#list-present" role="tab" aria-controls="present"><h5>Here Today</h5></a>
+              <a class="list-group-item list-group-item-dark list-group-item-action" id="list-future-list" data-toggle="list" href="#list-future" role="tab" aria-controls="future"><h5>The Bright Future</h5></a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-xs-12">
+            <div class="tab-content" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="list-beginning" role="tabpanel" aria-labelledby="list-beginning-list">Over 6 years ago, the Notre Dame Academy program was first founded by motivated students, along with help from Mr. Adam Dietzo, the team's moderator. This club was a first for Notre Dame Academy, as it was primarily focused on STEM-Education, something not thought of at the time. These students had a vision for the future; sensing a missing piece in the clubs already offered at school, they decided to take matters in their own hands. Although the first year started off slowly, with only one team, 6001A, they were able to participate in two competitions: the Upper Midwest VEX Regional and the B.E.A.S.T. VRC State Qualifier. This newly-founded team was almost able to make it to the state competition in its first year, showing signs of greatness to come. Without the bold students of 2012, the Notre Dame Academy robotics program would not be here today.</div>
+              <div class="tab-pane fade" id="list-earlyyears" role="tabpanel" aria-labelledby="list-earlyyears-list">With heavy recruitment throughout the school, news of the newrobotics team spread throughout the school. With a student population of less than 800, it was remarkable that the Robotics Team was able to inspire so many new students. The program quickly grew to multiple teams, and both were very successful, placing an emphasis over learning rather than success. These visionaries felt that success would come, and believed that it was most important to use these opportunities to learn more about the engineering process and the steps necessary to make a contender for the state championship. The year later, in 2014, the team was able to participate in 5 different competitions, including the state and national championship. Within 2 years of formation of the team, the Notre Dame Academy Tritons were able to compete with the best teams in the Greater Green Bay area. </div>
+              <div class="tab-pane fade" id="list-victory" role="tabpanel" aria-labelledby="list-victory-list">Due to the quick success of the robotics program, the team was able to attract more and more talent. Due to their dedication to the engineering process and perfection on all fronts of the robot: the programming, design, and execution, the Tritons were able to finally compete in the VEX World Championships, for the first time in school history. This great experience proves how hard work and dedication can pay off, even if it is not evident in the moment. Following this immensely successful year, the robotics team was able to make it to the State Competition two more years in a row, including a Nationals appearance as well. DUring this time, expert programmers Noah and Jordan made a contribution to the school that our team members still use today: a custom API that was able to control the robots with an LCD, providing essential features such as a recordable autonomous. This revolutionary idea was called NDAPI, and differentiates our program from all other teams in the area. </div>
+              <div class="tab-pane fade" id="list-present" role="tabpanel" aria-labelledby="list-present-list">Today, here in 2018, we are still greatful for all of the efforts of the past team members. It is our goal to carry on the success of those who put countless days into perfecting their craft. This year, there is not a single senior on our team. Although this means we do lack experience, we make up for it with our new and innovative ideas. We want to change the game that our predecessors enjoyed for the better, and represent our school even better than they have done. We sill benefit from the efforts of those who came before us, from our unique NDAPI to the multiple teachings created by students to help new members get started. Our goal for this year is to make it back to the State Championship, and hopefully even further. We will work harder than ever to make it happen, and feel that with enough effort, this goal is definitely managable. </div>
+              <div class="tab-pane fade" id="list-future" role="tabpanel" aria-labelledby="list-future-list">The 2018-2019 season will be the last year that the NDA Robotics Program will be using the legacy VEX Cortex system. After this season, we will start transitioning to the brand-new V5 system, giving our team more options to innovate. With V5, the possibilities are endless. With this brand-new hardware, we feel that the State Championship is a very managable goal, and we want to bring as many of our teams as possible to the event. We will do everything in our power to make it happen, especially due to the fact that there will be many seniors on the team in the 2019-2020 season. Throughout our history, we have always pushed the limits. This program was started by those who refused to submit to the restrictions placed on them, instead taking a risk to build something never-before-seen in school history. That is how greatness is made.</div>
+            </div>
+          </div>
+          <div class="col-12">
+            <br>
+            <br>
+            <h1>"This program was started by those who refused to submit to the restrictions placed on them, instead taking a risk to build something that has never been done before." -Joseph Massabni, Head Programmer</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <br>
+          <br>
+          <h1>How has VEX Robotics affected our students?</h1>
+          <br>
+          <br>
+        </div>
+        <div class="col-lg-6 col-sm-12">
+          <p>To us, VEX Robotics stands for more than just an event where we are able to build something and compete: it is a lifestyle.
+          This program emphasizes what real life is all about. Instead of conforming to the boundaries already reached by others, we must reach beyond them and make new discoveries, for the benefits of all of society. In real life, challenges will be faced, and they will seem to be almost impossible to overcome. However, with enough persistence, it will become evident that these obstacles were simply bumps in the road, and an experience to learn something new. </p>
+          <br>
+          <br>
+          <p>The VEX Robotics Competitions have helped our students to go beyond the classroom and learn real-life skills of collaboration, problem-solving, risk-taking, and making decisions under pressure. These situations are faced during every competition, as well as while planning and building our robots to compete with. </p>
+          <br>
+          <br>
+          <p>Secondly, our school has gained a program that prepares students for the increasingly tech-heavy world that will await them after graduation. Among one of the only available STEM-oriented clubs at Notre Dame Academy, our Robotics Team has successfully inspired students to pursue STEM-related topics of study in college and beyond. </p>
+          <br>
+          <br>
+          <p>Lastly, we are forever greatful to the REC Foundation for its endless support, providing grants to participate in as many competitions as possible and to purchase innovative parts that make our robots able to perform any idea that we have envisioned. </p>
+        </div>
+        <div class="col-lg-6 d-none d-sm-block">
+          <img src="images/34832341212_b5479577da_b.jpg" class="img-fluid img-thumbnail" alt="Responsive image">
+          <img src="images/DSC02579.jpg" class="img-fluid img-thumbnail" alt="Responsive image">
+        </div>
+      </div>
+    </div>
+
+    <div class="jumbotron-2 jumbotron-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <br>
+            <br>
+            <h1>Thanking those that make our program work!</h1>
+            <p>We sincerely thank those who help make our program work so successfully.</p>
+          </div>
+          <div class="col-sm-6">
+          <div class="card">
+            <img class="card-img-top" style="height:350px" src="images/yang_small.JPG" alt="NDA Exterior">
+            <div class="card-body">
+              <h5 class="card-title">Mr. Yang Yang</h5>
+              <p class="card-text">We thank you for carrying this program through all of the good times and bad, giving ideas and helping us when we are stuck! As the leader of this team, you have helped us so much!.</p>
+            </div>
+          </div>
+          </div>
+
+          <div class="col-sm-6">
+          <div class="card">
+            <img class="card-img-top" style="height:350px" src="images/konshak_small.JPG" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Mr. Brian Konshak</h5>
+              <p class="card-text">Thank you for coming to the competitions with us and supervising, as well as helping us with ideas and strategies! We couldn't have succeeded without you!</p>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <br>
+      <br>
+      <h1>Thank you for all of the dedicated club members and parents, it is amazing that we have been able to accomplish so much without any sponsors or outside funding of the sort!</h1>
+      <br>
+      <br>
+    </div>
+
+    <nav class="lowerNavbar bottom navbar-expand-lg">
+      <a class="navbar-brand" href="http://www.notredameacademy.com/">
+          <img src="NDA-Crest.svg" width="30" height="30" alt="" color="white">
+      </a>
+      <a class="nav-item" href="https://www.youtube.com/watch?v=MJvjOd0hj8Y&t">
+          <i class="fab fa-youtube fa-lg"></i>
+      </a>
+      <a class="nav-item" href="https://www.facebook.com/ndatritons/">
+        <i class="fab fa-facebook fa-lg"></i>
+      </a>
+      <a class="nav-item" href="https://twitter.com/TritonsNDA?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+        <i class="fab fa-twitter-square fa-lg"></i>
+      </a>
+      <a class="nav-item" href="https://github.com/josephmassabni">
+        <i class="fab fa-github-square fa-lg"></i>
+      </a>
+    </nav>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  </body>
+
+</html>

@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Font Awesome (Icons) -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <!-- Font from Google -->
+    <link href="https://fonts.googleapis.com/css?family=Heebo:100,700|Kaushan+Script|Monoton" rel="stylesheet">
+
+    <!--- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+
+    <title>NDA Robotics</title>
+
+    <script>
+    function deferVideo() {
+
+      //defer html5 video loading
+      $("video source").each(function() {
+        var sourceFile = $(this).attr("data-src");
+        $(this).attr("src", sourceFile);
+        var video = this.parentElement;
+        video.load();
+        // uncomment if video is not autoplay
+        //video.play();
+      });
+    }
+    window.onload = deferVideo;
+    </script>
+
+  </head>
+
+  <body>
+
+    <!--Upper Navbar-->
+    <nav class="upperNavbar navbar-expand-lg">
+      <a class="navbar-brand" href="http://www.notredameacademy.com/">
+          <img src="NDA-Crest.svg" width="30" height="30" alt="" color="white">
+      </a>
+      <a class="nav-item" href="https://www.youtube.com/watch?v=MJvjOd0hj8Y&t">
+          <i class="fab fa-youtube fa-lg"></i>
+      </a>
+      <a class="nav-item" href="https://www.facebook.com/ndatritons/">
+        <i class="fab fa-facebook fa-lg"></i>
+      </a>
+      <a class="nav-item" href="https://twitter.com/TritonsNDA?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+        <i class="fab fa-twitter-square fa-lg"></i>
+      </a>
+      <a class="nav-item" href="https://github.com/josephmassabni">
+        <i class="fab fa-github-square fa-lg"></i>
+      </a>
+     </nav>
+
+    <!-- Main Navbar -->
+    <nav class="navbar navbar-dark sticky-top flex-column navbar-expand-lg">
+      <a class="navbar-brand" href="index.html">NDA Robotics</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Teams
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="2018-2019.html">2018-2019</a>
+              <a class="dropdown-item" href="2017-2018.html">2017-2018</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="previousyears.html">Team Photos</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="awards.html">Awards</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="impact.html">Impact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+
+    <div class="container">
+      <br>
+      <br>
+      <h1>At NDA, we aren't just involved with robotics. We are:</h1>
+      <br>
+      <br>
+      <div class="row">
+        <div class="col-sm-4">
+        <div class="card">
+          <img class="card-img-top" src="images/NDA_Campus_Exteriors136.jpg" alt="NDA Exterior">
+          <div class="card-body">
+            <h5 class="card-title">Role Models</h5>
+            <p class="card-text">Notre Dame Academy serves as the only Catholic high school in Green Bay, continuing an education rooted in faith for 9 Catholic primary schools in the area.</p>
+            <hr class="my-4">
+            <p class="card-text">Through our example, the many middle school students in the area are inspired to persue a STEM education and prepare themselves for the future. Every year, students at the nearby middle schools share their scientific discoveries at our science fair.</p>
+            <a href="http://www.notredameacademy.com/about-nda/catholiclink" class="btn btn-info">Learn More</a>
+          </div>
+        </div>
+        </div>
+
+        <div class="col-sm-4">
+        <div class="card">
+          <img class="card-img-top" src="images/IMG_0228.JPG" alt="Student leadership">
+          <div class="card-body">
+            <h5 class="card-title">Leaders</h5>
+            <p class="card-text">Through our robotics program, students learn to become leaders, by incorporating all members' points of view and making decisions that benefit everyone. </p>
+            <hr class="my-4">
+            <p class="card-text">All of our classes at Notre Dame Academy teach students to become aware of everyone, regardless of their importance on the team. At NDA, we learn from each other!</p>
+          </div>
+        </div>
+        </div>
+
+        <div class="col-sm-4">
+        <div class="card">
+          <img class="card-img-top" src="images/NDA_Sign.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Volunteers</h5>
+            <p class="card-text">Service is one of the main aspects of a Notre Dame Academy. In the 2017-2018 school year, students recorded over 15,000 service hours, making an impact in society.</p>
+            <hr class="my-4">
+            <p class="card-text">Many members of the robotics program are actively involved with service, from helping tutor math at the nearby middle schools to raising money to help educate students for years to come.</p>
+            <a href="http://www.notredameacademy.com/faith/service" class="btn btn-info">What We've Done</a>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="jumbotron-2 jumbotron-fixed">
+      <div class="container">
+        <br>
+        <br>
+        <h1>Learn More about VEX Robotics</h1>
+        <p>A fantastic compilation of sources we teach students with!</p>
+        <br>
+        <br>
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-xs-12 text-center">
+            <h1>PROS
+                <i class="fas fa-code-branch"></i></h1>
+            <p>A 100% free, open-source development software for the VEX Cortex and V5 Multicontroller. Fantastic tutorials and general proramming knowledge that can help anyone learn to program for VEX! All members of our team proudly use PROS.
+              <a href="https://pros.cs.purdue.edu/">Learn More</a>
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-6 col-xs-12 text-center">
+            <h1>VEX Forums
+              <i class="fas fa-thumbtack"></i></h1>
+            <p>The official forums related to everything VEX Robotics! Many users there are happy to help, as well as VEX officials that provide explanations of rules and other information. Making an account is easy and allows you to join the community!
+              <a href="https://www.vexforum.com/">Learn More</a>
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-6 col-xs-12 text-center">
+            <h1>Mr. Z's Video tutorials
+              <i class="fas fa-video"></i></h1>
+            <p>Explanations to all of the VEX basics in video form! This 7-video series provides everything you need to start learning. Uses with RobotC, the most popular VEX development software.
+              <a href="https://www.youtube.com/watch?v=aB2EoQmWWcw&list=PLB7m7EWHl0xyAgh4GAA4YAtXzV06Twlln">Learn More</a>
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-6 col-xs-12 text-center">
+            <h1>CMU Robotics
+              <i class="fas fa-university"></i></h1>
+            <p>The CMU Robotics Academy provides an in-depth look into both VEX IQ and VEX EDR. Provides information for teachers and students looking to form a robotics team! Some lessons are available for purchase, but many are also available for free.
+              <a href="https://www.cmu.edu/roboticsacademy/index.html">Learn More</a>
+            </p>
+          </div>
+          <div class="col-12">
+            <br>
+            <br>
+            <h1>Many more resources are found online!</h1>
+            <p>Some search ideas: </p>
+            <p>"PROS VEX Robotics Video tutorials", "How to program VEX robotics", "VEX Tutorial Videos", "VEX Robotics ideas", "VEX Robotics Designs" </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <nav class="lowerNavbar bottom navbar-expand-lg">
+      <a class="navbar-brand" href="http://www.notredameacademy.com/">
+          <img src="NDA-Crest.svg" width="30" height="30" alt="" color="white">
+      </a>
+      <a class="nav-item" href="https://www.youtube.com/watch?v=MJvjOd0hj8Y&t">
+          <i class="fab fa-youtube fa-lg"></i>
+      </a>
+      <a class="nav-item" href="https://www.facebook.com/ndatritons/">
+        <i class="fab fa-facebook fa-lg"></i>
+      </a>
+      <a class="nav-item" href="https://twitter.com/TritonsNDA?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+        <i class="fab fa-twitter-square fa-lg"></i>
+      </a>
+      <a class="nav-item" href="https://github.com/josephmassabni">
+        <i class="fab fa-github-square fa-lg"></i>
+      </a>
+    </nav>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  </body>
+
+</html>

@@ -1,0 +1,287 @@
+
+/*
+* From Google fonts
+*/
+p {
+  font-family: 'Heebo', sans-serif;
+}
+h1 {
+  font-family: 'Kaushan Script', cursive;
+}
+h5 {
+  font-family: 'Kaushan Script', cursive;
+}
+
+/*
+*Upper Navbar
+*/
+.upperNavbar {
+  padding-left: 10px;
+  height: 50px;
+  background-color: #3343a1
+}
+
+/*
+* FontAwesome fab Icons to white
+* For upper navbar
+*/
+.fab {
+  color: white;
+  height: 30px;
+  width: 30px;
+}
+.fab:hover {
+  color: gray;
+}
+
+
+/*
+* Lower navbar
+*/
+.lowerNavbar {
+  padding-left: 10px;
+  height: 50px;
+  background-color: #3343a1
+}
+
+
+/*
+* MAIN NAVBAR
+*Made with help from TWBSColor
+*/
+.navbar {
+  font-family: 'Monoton', cursive;
+  background-color: #505dab;
+
+}
+.navbar .navbar-brand {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 35px;
+  color: #ecf0f1;
+}
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+  color: #d2d1d4;
+}
+.navbar .navbar-text {
+  color: #ecf0f1;
+}
+.navbar .navbar-text a {
+  color: #d2d1d4;
+}
+.navbar .navbar-text a:hover,
+.navbar .navbar-text a:focus {
+  color: #d2d1d4;
+}
+.navbar .navbar-nav .nav-link {
+  color: #ecf0f1;
+  border-radius: .25rem;
+  margin: 0 0.25em;
+}
+.navbar .navbar-nav .nav-link:not(.disabled):hover,
+.navbar .navbar-nav .nav-link:not(.disabled):focus {
+  color: #d2d1d4;
+}
+.navbar .navbar-nav .dropdown-menu {
+  background-color: #505dab;
+  border-color: #3343a1;
+}
+.navbar .navbar-nav .dropdown-menu .dropdown-item {
+  color: #ecf0f1;
+}
+.navbar .navbar-nav .dropdown-menu .dropdown-item:hover,
+.navbar .navbar-nav .dropdown-menu .dropdown-item:focus,
+.navbar .navbar-nav .dropdown-menu .dropdown-item.active {
+  color: #d2d1d4;
+  background-color: #3343a1;
+}
+.navbar .navbar-nav .dropdown-menu .dropdown-divider {
+  border-top-color: #3343a1;
+}
+.navbar .navbar-nav .nav-item.active .nav-link,
+.navbar .navbar-nav .nav-item.active .nav-link:hover,
+.navbar .navbar-nav .nav-item.active .nav-link:focus,
+.navbar .navbar-nav .nav-item.show .nav-link,
+.navbar .navbar-nav .nav-item.show .nav-link:hover,
+.navbar .navbar-nav .nav-item.show .nav-link:focus {
+  color: #d2d1d4;
+  background-color: #3343a1;
+}
+.navbar .navbar-toggle {
+  border-color: #3343a1;
+}
+.navbar .navbar-toggle:hover,
+.navbar .navbar-toggle:focus {
+  background-color: #3343a1;
+}
+.navbar .navbar-toggle .navbar-toggler-icon {
+  color: #ecf0f1;
+}
+.navbar .navbar-collapse,
+.navbar .navbar-form {
+  border-color: #ecf0f1;
+}
+.navbar .navbar-link {
+  color: #ecf0f1;
+}
+.navbar .navbar-link:hover {
+  color: #d2d1d4;
+}
+
+@media (max-width: 575px) {
+  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #ecf0f1;
+  }
+  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #d2d1d4;
+  }
+  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #d2d1d4;
+    background-color: #3343a1;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #ecf0f1;
+  }
+  .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+  .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #d2d1d4;
+  }
+  .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #d2d1d4;
+    background-color: #3343a1;
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #ecf0f1;
+  }
+  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #d2d1d4;
+  }
+  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #d2d1d4;
+    background-color: #3343a1;
+  }
+}
+
+@media (max-width: 1199px) {
+  .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #ecf0f1;
+  }
+  .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+  .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #d2d1d4;
+  }
+  .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #d2d1d4;
+    background-color: #3343a1;
+  }
+}
+
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item {
+  color: #ecf0f1;
+}
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+  color: #d2d1d4;
+}
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item.active {
+  color: #d2d1d4;
+  background-color: #3343a1;
+}
+
+/*
+*Used from a CodePen sample of jumbotron with video background
+*/
+.jumbotron {
+  height:650px;
+position: relative;
+overflow: hidden;
+background-color:black;
+padding-bottom: 0px;
+}
+.jumbotron video {
+position: absolute;
+z-index: 1;
+top: 0;
+width:100%;
+height:100%;
+/*  object-fit is not supported on IE  */
+object-fit: cover;
+opacity:0.5;
+}
+.jumbotron .container {
+z-index: 2;
+position: relative;
+}
+
+/*
+* Jumbotron for awards page
+*/
+.jumbotronAwards {
+  height:550px;
+position: relative;
+overflow: hidden;
+background-color:black;
+padding-bottom: 0px;
+}
+.jumbotronAwards video {
+position: absolute;
+z-index: 1;
+top: 0;
+width:100%;
+height:100%;
+/*  object-fit is not supported on IE  */
+object-fit: cover;
+opacity:0.5;
+}
+.jumbotronAwards .container {
+z-index: 2;
+position: relative;
+}
+
+
+/*
+*Second jumbotron
+* Index
+*/
+.jumbotron-2 {
+  height: 700px;
+  background-color: #DCDCDC;
+}
+
+/*
+*Third jumbotron (About)
+*/
+.jumbotron-3 {
+  height:400px;
+  position: relative;
+  overflow: hidden;
+  background-image: url('https://i.imgur.com/bhjvnEc.jpg');
+  background-color: white;
+  background-size: cover;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.jumbotron-3 h1 {
+  color: white;
+  font-size: 70px;
+}
+.jumbotron-3 p {
+  color: white;
+  font-size: 20px;
+}
+
+/*
+*Slideshow
+*/
+.carousel img {
+    max-height: 650px;
+    margin: 0 auto;
+}

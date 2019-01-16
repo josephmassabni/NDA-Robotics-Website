@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Font Awesome (Icons) -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <!-- Font from Google -->
+    <link href="https://fonts.googleapis.com/css?family=Heebo:100,700|Kaushan+Script|Monoton" rel="stylesheet">
+
+    <!--- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+
+    <title>NDA Robotics</title>
+
+    <script>
+    function deferVideo() {
+
+      //defer html5 video loading
+      $("video source").each(function() {
+        var sourceFile = $(this).attr("data-src");
+        $(this).attr("src", sourceFile);
+        var video = this.parentElement;
+        video.load();
+        // uncomment if video is not autoplay
+        //video.play();
+      });
+    }
+    window.onload = deferVideo;
+    </script>
+
+  </head>
+  <body>
+
+
+    <div class="alert alert-light alert-dismissible fade show" role="alert">
+      <strong>Welcome to our website!</strong> This was made by solely by students using html, css, and a bit of Bootstrap- no website builder or anything of the sort! This project took over 30 hours of the head programmer's time and involved many others with ideas, photography, and information.
+      <hr>
+      <p>If you are here from the <a href="https://challenges.robotevents.com/challenge/95" class="alert-link">Robotics Team Website Challenge Sponsored by Dell</a>, we are happy you are able to share this experience with us! <b>This was our first large-scale experience with html and css, but was a very fun and rewarding experience regardless! Although this website supports all major browsers, for best results, please use Google Chrome in full-screen mode on a computer. Depending on your internet connection, the video playing in the background may take a few moments to load. </b> Enjoy the fruits of our learning! </p>
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+
+    <!--Upper Navbar-->
+    <nav class="upperNavbar navbar-expand-lg">
+      <a class="navbar-brand" href="http://www.notredameacademy.com/">
+          <img src="NDA-Crest.svg" width="30" height="30" alt="" color="white">
+      </a>
+      <a class="nav-item" href="https://www.youtube.com/watch?v=MJvjOd0hj8Y&t">
+          <i class="fab fa-youtube fa-lg"></i>
+      </a>
+      <a class="nav-item" href="https://www.facebook.com/ndatritons/">
+        <i class="fab fa-facebook fa-lg"></i>
+      </a>
+      <a class="nav-item" href="https://twitter.com/TritonsNDA?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+        <i class="fab fa-twitter-square fa-lg"></i>
+      </a>
+      <a class="nav-item" href="https://github.com/josephmassabni">
+        <i class="fab fa-github-square fa-lg"></i>
+      </a>
+     </nav>
+
+    <!-- Main Navbar -->
+    <nav class="navbar navbar-dark sticky-top flex-column navbar-expand-lg">
+      <a class="navbar-brand" href="index.html">NDA Robotics</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Teams
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="2018-2019.html">2018-2019</a>
+              <a class="dropdown-item" href="2017-2018.html">2017-2018</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="previousyears.html">Team Photos</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="awards.html">Awards</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="impact.html">Impact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+  <div class="jumbotron jumbotron-fluid">
+
+    <video autoplay muted loop poster="images/NDA_Campus_Exteriors136.jpg">
+      <source src="" data-src="images/ndaVideo.mp4" type="video/mp4">
+    </video>
+
+    <div class="container text-white">
+
+      <h1 class="display-4">Green Bay's Premier Robotics Education</h1>
+      <h5>Rooted in faith, tradition, and a passion for excellence</h5>
+      <hr class="my-4">
+      <span style="font-size: 30px">
+      <p>"The heart of the discerning acquires knowledge, for the ears of the wise seek it out." -Proverbs 18.15</p>
+      </span>
+      <a class="btn btn-dark btn-lg" href="#learnMore" role="button">
+        Learn More
+        <i class="fas fa-angle-double-down"></i>
+      </a>
+
+    </div>
+    <!-- /.container -->
+  </div>
+  <!-- /.jumbotron -->
+
+  <div class="container">
+    <div class="row" style="margin: auto">
+      <a name="learnMore"></a>
+      <div class="col-lg-12 col-xs-0 text-center">
+        <span style="font-size: 30px">
+          <p1>“Strive for perfection in everything you do. Take the best that exists and make it better. When it does not exist, design it.”
+          —Sir Henry Royce </p1>
+        </span>
+      </div>
+      <div class="col-12">
+        <br>
+        </br>
+        <h1>What makes Notre Dame Academy Robotics Different?
+          <br>
+          <br>
+        </h1>
+      </div>
+      <div class="col-lg-4 col-xs-12 text-center">
+          <h1>
+            <i class="fas fa-church fa-lg"></i>
+            Faith
+          </h1>
+          <p>One of the most crucial aspects of our education at Notre Dame Academy, faith plays an important role in our robotics program. We seek to make the best use of our opportunities we have been given. We live by this motto: "Just try to make one person's day better!" We are the future generation, and it is up to us to make the world a better place.</p>
+      </div>
+      <div class="col-lg-4 col-xs-12 text-center">
+        <h1>
+          <i class="fas fa-smile-beam fa-lg"></i>
+          Fun
+        </h1>
+        <p>It is clear that robotics competitions can become very stressful and intenese. However, our program emphasizes the learning opportunities regardless of winning or losing. We feel that robotics serves as a great experience for real life: something can always go wrong, but it is up to us fix it the best we can. </p>
+      </div>
+      <div class="col-lg-4 col-xs-12 text-center">
+          <h1>
+            <i class="fas fa-book-reader fa-lg"></i>
+            Tradition
+          </h1>
+          <p>There are many aspects of our robotics program that makes us unique. From our unique API found in the programming of our robots to the same materials being reused to keep our environmental footprint to a minimum, we keep a focus not only on the future, but also in what we have done in the past. No contribution, no matter how small or long ago, is not used: everyone is involved!</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="jumbotron-2 jumbotron-fluid">
+    <div class="container">
+      <div class="row" style="margin: auto">
+        <div class="col-12">
+          <br>
+          <br>
+          <h1>What is VEX Robotics?</h1>
+        </div>
+        <div class="col-lg-6 col-xs-12">
+            <span style="font-size: 22px">
+            <p>VEX Robotics, the largest robotics competition in the world, is more than just building robots. VEX Robotics teaches real life STEM applications that prepare students for success in a world where technology becomes more and more critical.
+                The VEX Robotics Competitions, also refered to as the "Greatest 2 Minutes in Robotics," are a series of competitions presented by the Robotics Education and Competition (REC) Foundation, a non-profit organization that is committed to forging young scholars into leaders in the STEM field.
+                With competitions in over 40 countries and over 20,000 registered teams, it is clear that the REC Foundation has been able to inspire and educate learners throughout the world.
+                <a href="https://www.vexrobotics.com/about-us" class="link">Learn More</a>
+              </p>
+            </span>
+        </div>
+        <div class="col-lg-6 d-none d-sm-block">
+            <img src="images/VEXlogo.jpg" class="img-fluid img-thumbnail" alt="Responsive image">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <br>
+        <br>
+        <h1>How can I get involved?</h1>
+        <p>Great- welcome aboard! Here is how you can get involved with VEX:</p>
+      </div>
+      <div class="col-lg-4 col-xs-12 text-center">
+          <h1>Compete
+            <i class="fas fa-chess-knight"></i></h1>
+          <p>If you want to dive right in, there are three different competitions just for you: VEX IQ, mainly intended for students in elementary and middle school, and  VEX EDR, a competition for high schoolers and beyond! Many teams are looking for players- see if there is a robotics club in your school; if there isn't, you could definitely start one! </p>
+      </div>
+      <div class="col-lg-4 col-xs-12 text-center">
+          <h1>Volunteer
+            <i class="fas fa-hand-holding-heart"></i></h1>
+          <p>In the world of VEX Robotics, there is always an event somewhere. Chances are, there could be an event near you that is in need of volunteers! No experience? No problem- this is one of the best ways to learn more about robotics, and help others while doing it!
+            By volunteering, you can help the schools that run events to raise money for their program, therefore helping a school directly as well. </p>
+      </div>
+      <div class="col-lg-4 col-xs-12 text-center">
+          <h1>Educate
+            <i class="fas fa-ruler"></i></h1>
+          <p>If you think you know your stuff, you can definitely help a large amount of people! One easy way to do this would be to help out at the
+            <a href="https://www.vexforum.com/" class="link">VEX Forums</a>, the official forums of VEX Robotics. This would be a great way to help out beginners as well as more advanced teams. </p>
+      </div>
+    </div>
+  </div>
+
+
+
+    <div class="jumbotron-2 jumbotron-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <br>
+            <br>
+            <span style="font-size:100px; font-family: 'Kaushan Script', cursive">
+            <h>Talk to us!</h>
+            <h1><i class="fas fa-mail-bulk fa-lg"></i></h1>
+            </span>
+            <br>
+
+            <h1>For more information about our team and sponsorship requests, email: </h1>
+            <span style="font-size: 20px">
+            <p><u>yyang@notredameacademy.com</u></p>
+            </span>
+            <p1>Mr. Yang, Head of Robotics Program </p1>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+  <nav class="lowerNavbar bottom navbar-expand-lg">
+    <a class="navbar-brand" href="http://www.notredameacademy.com/">
+        <img src="NDA-Crest.svg" width="30" height="30" alt="" color="white">
+    </a>
+    <a class="nav-item" href="https://www.youtube.com/watch?v=MJvjOd0hj8Y&t">
+        <i class="fab fa-youtube fa-lg"></i>
+    </a>
+    <a class="nav-item" href="https://www.facebook.com/ndatritons/">
+      <i class="fab fa-facebook fa-lg"></i>
+    </a>
+    <a class="nav-item" href="https://twitter.com/TritonsNDA?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+      <i class="fab fa-twitter-square fa-lg"></i>
+    </a>
+    <a class="nav-item" href="https://github.com/josephmassabni">
+      <i class="fab fa-github-square fa-lg"></i>
+    </a>
+  </nav>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
